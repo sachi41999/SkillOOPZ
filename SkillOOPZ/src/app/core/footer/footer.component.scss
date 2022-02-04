@@ -42,3 +42,26 @@
   text-decoration: underline;
   width: 0px;
 }
+
+@media only screen and (max-width: 1150px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer1 {
+    width: auto;
+    text-align: center;
+  }
+  .footer2 {
+    display: flex;
+    justify-content: center;
+  }
+  .footer3 {
+    width: auto;
+    text-align: center;
+  }
+  .footer4 {
+    display: flex;
+    justify-content: center;
+  }
+}

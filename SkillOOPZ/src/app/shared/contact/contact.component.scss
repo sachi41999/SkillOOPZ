@@ -14,3 +14,9 @@ label {
   font-weight: bolder;
   color: black;
 }
+
+@media only screen and (max-width: 450px) {
+  .container1 {
+    width: 300px;
+  }
+}
