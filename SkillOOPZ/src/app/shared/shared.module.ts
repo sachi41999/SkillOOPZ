@@ -7,6 +7,7 @@ import { FeaturedModuleModule } from '../feature/featured-module.module';
 import { CoursesComponent } from './courses/courses.component';
 import { ServicesComponent } from './services/services.component';
 import { ContactComponent } from './contact/contact.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 const routes:Routes=[
   {path:'home',component:HomeComponent},
@@ -25,7 +26,7 @@ const routes:Routes=[
     ContactComponent
   ],
   imports: [
-    CommonModule,RouterModule.forChild(routes),FeaturedModuleModule
+    CommonModule,RouterModule.forChild(routes),FeaturedModuleModule,ReactiveFormsModule,FormsModule
   ]
 
 })
